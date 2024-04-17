@@ -4,6 +4,7 @@ import { FaTiktok } from "react-icons/fa"
 
 const Footer = () => {
   return (
+    <>
     <footer className="pt-[50px] pb-10 bg-indigo-600">
       <h1 className="text-center pb-8 font-bold text-white font-roboto">Follow Us</h1>
       <div className="flex flex-row justify-center items-center gap-5 text-white">
@@ -14,9 +15,10 @@ const Footer = () => {
 
       </div>
       <div className="flex justify-center pt-32">
-      <p className="text-white">Copyright 2023 | sarahshop </p>
+      <p className="text-white">Copyright 2023 | ryndev </p>
       </div>
     </footer>
+    </>
   )
 }
 

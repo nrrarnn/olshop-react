@@ -6,6 +6,7 @@ import HeroProduct from "./HeroProduct";
 
 const Product = () => {
   return (
+    <>
     <section id="Product" className={`${layout.section}`}>
         <h1 className={`${styles.heading1}`}>Fashion & Aksesoris</h1>
         <HeroProduct img={heroProdukFashion.img} deskripsi={heroProdukFashion.deskripsi}/>
@@ -19,6 +20,7 @@ const Product = () => {
           }
         </Card>
     </section>
+    </>
   )
 }
 

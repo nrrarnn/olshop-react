@@ -7,6 +7,7 @@ import HeroProduct from "./HeroProduct";
 
 const CetakFoto = () => {
   return(
+    <>
     <section id="Service" className={`${layout.section}`}>
       <h1 className={`${styles.heading1}`}>Cetak Foto</h1>
       <HeroProduct img={heroCetakFoto.img} deskripsi={heroCetakFoto.deskripsi}/>
@@ -18,6 +19,7 @@ const CetakFoto = () => {
         }
       </Card>
     </section>
+    </>
   )
 }
 export default CetakFoto;

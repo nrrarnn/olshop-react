@@ -31,7 +31,7 @@ function App() {
 
   return (
   
-    <div>
+    <>
       {loading ? 
       <Loader/> 
       :
@@ -47,7 +47,7 @@ function App() {
         <Contact/>
         <Footer/>
       </div>}
-    </div>
+    </>
   )
 }
 

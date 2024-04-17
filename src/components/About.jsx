@@ -2,6 +2,7 @@ import { about } from "../constants";
 
 const About = () => {
   return(
+    <>
     <section id="About" className={`flex w-full container lg:mx-auto sm:px-16 px-5 sm:flex-row flex-col justify-around bg-[#f3f5ff] py-36`}>
       <div className="sm:w-1/2 w-full flex justify-center px-8 mb-4 flex-col font-poppins">
         <h1 className="font-extrabold text-[28px] text-slate-900 pb-4">Tentang Kami</h1>
@@ -23,6 +24,7 @@ const About = () => {
         ))}
       </div>     
     </section>
+    </>
   )
 }
 

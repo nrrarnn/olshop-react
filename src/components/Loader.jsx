@@ -2,6 +2,7 @@ import {BallTriangle} from "react-loader-spinner";
 
 const Loader = () => {
   return(
+    <>
     <div className="flex bg-white justify-center items-center min-h-screen">
       <BallTriangle
       height="100"
@@ -10,6 +11,7 @@ const Loader = () => {
       ariaLabel="loading"
       />
     </div>
+    </>
   )
 }
 

@@ -7,6 +7,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return(
+    <>
     <nav className={`fixed z-[9999] w-full flex ${styles.paddingX} py-6 justify-between items-center navbar font-bold font-poppins shadow-md z-[9999] bg-white`}>
         <div className="font-poppins font-extrabold">
           <h1 className="text-[20px]">Sarah<span className="text-[#3e3eff]">Shop</span></h1>
@@ -40,6 +41,7 @@ const Navbar = () => {
             </div>
         </div>
     </nav>
+    </>
   )
 }
 

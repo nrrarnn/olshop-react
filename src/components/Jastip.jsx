@@ -6,6 +6,7 @@ import HeroProduct from "./HeroProduct";
 
 const Jastip = () => {
   return (
+    <>
     <section className={`${layout.section}`}>
       <h1 className={`${styles.heading1}`}>Jasa Titip</h1>
       <HeroProduct img={heroJastip.img} deskripsi={heroJastip.deskripsi}/>
@@ -17,6 +18,7 @@ const Jastip = () => {
         }
       </Card>
     </section>
+    </>
   )
 }
 

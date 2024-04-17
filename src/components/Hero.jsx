@@ -3,6 +3,7 @@ import { heroSection } from "../constants";
 
 const Hero = () => {
   return(
+    <>
     <section id="Home" className="sm:pt-10 pt-28 bg-[#f3f5ff]">
       <div className={`flex flex-wrap ${styles.paddingY} w-full container lg:mx-auto ${styles.padding} sm:flex-row flex-col justify-around `}>
       <div className="flex flex-col sm:w-1/3 justify-center ">
@@ -19,6 +20,7 @@ const Hero = () => {
       </div>
       </div> 
     </section>
+    </>
   )
 
 }

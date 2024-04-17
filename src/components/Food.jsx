@@ -6,6 +6,7 @@ import HeroProduct from "./HeroProduct";
 
 const Food = () => {
   return(
+    <>
     <section className="mt-10">
       <h1 className={`${styles.heading1}`}>Food</h1>
       <HeroProduct img={heroFood.img} deskripsi={heroFood.deskripsi}/>
@@ -17,6 +18,7 @@ const Food = () => {
         }
       </Card>
     </section>
+    </>
   )
 }
 
