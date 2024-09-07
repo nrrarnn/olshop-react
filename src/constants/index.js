@@ -37,21 +37,28 @@ export const cardItem = [
     id: 1,
     icon: 'fashion.png',
     title : 'Fashion',
+    deskripsi : 'Temukan berbagai tren dan gaya busana terbaru'
   },
   {
     id: 2,
     icon: 'fast-food.png',
     title : 'Makanan',
+    deskripsi : 'Nikmati pilihan makanan lezat dan cepat saji'
+
   },
   {
     id: 3,
     icon: 'print.png',
     title : 'Cetak Foto',
+    deskripsi : 'Abadikan momen berharga Anda'
+
   },
   {
     id: 4,
     icon: 'jasatitip.png',
     title : 'Jasa Titip',
+    deskripsi : 'Mudahkan pembelian barang dengan mudah'
+
   },
 ];
 

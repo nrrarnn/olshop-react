@@ -6,8 +6,8 @@ const Hero = () => {
     <>
     <section id="Home" className="sm:pt-10 pt-28 bg-[#f3f5ff]">
       <div className={`flex flex-wrap ${styles.paddingY} w-full container lg:mx-auto ${styles.padding} sm:flex-row flex-col justify-around `}>
-      <div className="flex flex-col sm:w-1/3 justify-center ">
-        <h1 className="font-poppins font-extrabold text-[30px] text-slate-900">{heroSection.title} <span className="text-[#3e3eff]"> SarahShop!</span></h1>
+      <div className="flex flex-col sm:w-[50%] justify-center ">
+        <h1 className="font-poppins font-extrabold text-[50px] text-slate-900">{heroSection.title} <span className="text-[#3e3eff]"> SarahShop!</span></h1>
         <p className={`${styles.paragraph} py-5`}>{heroSection.deskripsi}</p>
         <div className="">
         <button className={`${styles.button}`}><a href="#about">Jelajahi</a></button>

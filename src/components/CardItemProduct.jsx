@@ -9,7 +9,7 @@ const CardItem = ({img, name, ex}) => {
         </div>
         <h1 className={`${styles.heading3}`}>{name}</h1>     
       </div>
-     </>
+    </>
     )
 
 }

@@ -8,8 +8,6 @@ export default {
     extend: {
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
-        roboto: ['Roboto', 'sans-serif'],
-        montserrat : ['Montserrat', 'sans-serif'],
       },
       colors: {
         

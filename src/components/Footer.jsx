@@ -5,7 +5,7 @@ import { FaTiktok } from "react-icons/fa"
 const Footer = () => {
   return (
     <>
-    <footer className="pt-[50px] pb-10 bg-indigo-600">
+    <footer className="pt-[50px] pb-10 bg-indigo-800">
       <h1 className="text-center pb-8 font-bold text-white font-roboto">Follow Us</h1>
       <div className="flex flex-row justify-center items-center gap-5 text-white">
 

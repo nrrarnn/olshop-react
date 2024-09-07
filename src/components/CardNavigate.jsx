@@ -4,7 +4,7 @@ import CardItemCategory from "./CardItemCategory";
 
 const CardNavigate = () => {
   return(
-   <Card styles={`grid-cols-2 md:grid-cols-3 lg:grid-cols-4 pt-10`}>
+   <Card styles={`grid-cols-1 md:grid-cols-3 lg:grid-cols-4 pt-10`}>
       {
         cardItem.map((card) => (
           <CardItemCategory key={card.id} card={card} />
