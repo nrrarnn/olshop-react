@@ -12,12 +12,10 @@ export const navLinks =  [
   {
     id: 3,
     name: 'Product',
-   
   },
   {
     id: 4,
     name: 'Service',
-   
   },
   {
     id: 5,
